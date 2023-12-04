@@ -5,6 +5,19 @@ Nama : Sadam payoda sabilillah
 
 NIM  : 200411100069
 
+# bussines Understanding
+
+Tujuannya apa untuk mengumpulkan data tersebut dan kenapa kita harus mengumpulkan data Cirrhosis Patient Survival Prediction :
+
+1. Melalui analisis data, peneliti ilmiah dapat mengidentifikasi faktor-faktor risiko apa saja yang berkaitan dengan kelangsungan hidup pasien. Ini dapat mencakup faktor-faktor seperti tingkat keparahan sirosis, komplikasi lainnya, dan respons terhadap pengobatan. 
+
+2. menganalisis data untuk membantu djaalam memahami efektivitas berbagai jenis perawatan dan intervensi pada pasien dengan sirosis hati. Hal ini dapat membantu dokter dalam merencanakan perawatan yang lebih efektif dan tepat waktu agar kemungkinan pada kehidupan penderita sironis hati menjadi lebih aman atau akurasi keberlangsungan hiduo menjadi panjang.
+
+3. dengan adanya Informasi dataset Cirrhosis Patient Survival Prediction dengan pengidap  prognosis sirosis hati dapat digunakan untuk memberikan edukasi kepada masyarakat tentang faktor risiko dan pentingnya deteksi dini. Kesadaran ini dapat meningkatkan upaya pencegahan dan deteksi dini kondisi yang dapat menyebabkan sirosis hati.
+
+Diatas adalah beberapa tujuan pentingnya untuk mengumpulkan data data CDC Diabetes Health Indicator.
+
+
 # Data Understanding
 
 ## Cirrhosis Patient Survival Prediction {.unnumbered}
@@ -15,16 +28,6 @@ NIM  : 200411100069
 
 Sirosis terjadi akibat kerusakan hati yang berkepanjangan, sehingga menimbulkan jaringan parut yang luas, sering kali disebabkan oleh kondisi seperti hepatitis atau konsumsi alkohol kronis. Data yang diberikan bersumber dari penelitian Mayo Clinic tentang sirosis bilier primer (PBC) hati yang dilakukan pada tahun 1974 hingga 1984.
  
-### -Tujuan mengumpulkan data
-Tujuannya apa untuk mengumpulkan data tersebut dan kenapa kita harus mengumpulkan data Cirrhosis Patient Survival Prediction :
-
-1. Melalui analisis data, peneliti ilmiah dapat mengidentifikasi faktor-faktor risiko apa saja yang berkaitan dengan kelangsungan hidup pasien. Ini dapat mencakup faktor-faktor seperti tingkat keparahan sirosis, komplikasi lainnya, dan respons terhadap pengobatan. 
-
-2. menganalisis data untuk membantu djaalam memahami efektivitas berbagai jenis perawatan dan intervensi pada pasien dengan sirosis hati. Hal ini dapat membantu dokter dalam merencanakan perawatan yang lebih efektif dan tepat waktu agar kemungkinan pada kehidupan penderita sironis hati menjadi lebih aman atau akurasi keberlangsungan hiduo menjadi panjang.
-
-3. dengan adanya Informasi dataset Cirrhosis Patient Survival Prediction dengan pengidap  prognosis sirosis hati dapat digunakan untuk memberikan edukasi kepada masyarakat tentang faktor risiko dan pentingnya deteksi dini. Kesadaran ini dapat meningkatkan upaya pencegahan dan deteksi dini kondisi yang dapat menyebabkan sirosis hati.
-
-Diatas adalah beberapa tujuan pentingnya untuk mengumpulkan data data CDC Diabetes Health Indicator.
 
 
 ### Mengenai dataset pada Cirrhosis Patient Survival Prediction

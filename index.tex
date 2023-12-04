@@ -285,7 +285,7 @@ To blah, blah, and blah.
 \setlength{\abovedisplayskip}{-5pt}
 \setlength{\abovedisplayshortskip}{-5pt}
 
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, enhanced, interior hidden, frame hidden, sharp corners, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, interior hidden, breakable, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, sharp corners, enhanced]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -304,6 +304,43 @@ To blah, blah, and blah.
 Nama : Sadam payoda sabilillah
 
 NIM : 200411100069
+
+\bookmarksetup{startatroot}
+
+\hypertarget{bussines-understanding}{%
+\chapter*{bussines Understanding}\label{bussines-understanding}}
+\addcontentsline{toc}{chapter}{bussines Understanding}
+
+\markboth{bussines Understanding}{bussines Understanding}
+
+Tujuannya apa untuk mengumpulkan data tersebut dan kenapa kita harus
+mengumpulkan data Cirrhosis Patient Survival Prediction :
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Melalui analisis data, peneliti ilmiah dapat mengidentifikasi
+  faktor-faktor risiko apa saja yang berkaitan dengan kelangsungan hidup
+  pasien. Ini dapat mencakup faktor-faktor seperti tingkat keparahan
+  sirosis, komplikasi lainnya, dan respons terhadap pengobatan.
+\item
+  menganalisis data untuk membantu djaalam memahami efektivitas berbagai
+  jenis perawatan dan intervensi pada pasien dengan sirosis hati. Hal
+  ini dapat membantu dokter dalam merencanakan perawatan yang lebih
+  efektif dan tepat waktu agar kemungkinan pada kehidupan penderita
+  sironis hati menjadi lebih aman atau akurasi keberlangsungan hiduo
+  menjadi panjang.
+\item
+  dengan adanya Informasi dataset Cirrhosis Patient Survival Prediction
+  dengan pengidap prognosis sirosis hati dapat digunakan untuk
+  memberikan edukasi kepada masyarakat tentang faktor risiko dan
+  pentingnya deteksi dini. Kesadaran ini dapat meningkatkan upaya
+  pencegahan dan deteksi dini kondisi yang dapat menyebabkan sirosis
+  hati.
+\end{enumerate}
+
+Diatas adalah beberapa tujuan pentingnya untuk mengumpulkan data data
+CDC Diabetes Health Indicator.
 
 \bookmarksetup{startatroot}
 
@@ -339,39 +376,6 @@ menimbulkan jaringan parut yang luas, sering kali disebabkan oleh
 kondisi seperti hepatitis atau konsumsi alkohol kronis. Data yang
 diberikan bersumber dari penelitian Mayo Clinic tentang sirosis bilier
 primer (PBC) hati yang dilakukan pada tahun 1974 hingga 1984.
-
-\hypertarget{tujuan-mengumpulkan-data}{%
-\subsection*{-Tujuan mengumpulkan data}\label{tujuan-mengumpulkan-data}}
-\addcontentsline{toc}{subsection}{-Tujuan mengumpulkan data}
-
-Tujuannya apa untuk mengumpulkan data tersebut dan kenapa kita harus
-mengumpulkan data Cirrhosis Patient Survival Prediction :
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\item
-  Melalui analisis data, peneliti ilmiah dapat mengidentifikasi
-  faktor-faktor risiko apa saja yang berkaitan dengan kelangsungan hidup
-  pasien. Ini dapat mencakup faktor-faktor seperti tingkat keparahan
-  sirosis, komplikasi lainnya, dan respons terhadap pengobatan.
-\item
-  menganalisis data untuk membantu djaalam memahami efektivitas berbagai
-  jenis perawatan dan intervensi pada pasien dengan sirosis hati. Hal
-  ini dapat membantu dokter dalam merencanakan perawatan yang lebih
-  efektif dan tepat waktu agar kemungkinan pada kehidupan penderita
-  sironis hati menjadi lebih aman atau akurasi keberlangsungan hiduo
-  menjadi panjang.
-\item
-  dengan adanya Informasi dataset Cirrhosis Patient Survival Prediction
-  dengan pengidap prognosis sirosis hati dapat digunakan untuk
-  memberikan edukasi kepada masyarakat tentang faktor risiko dan
-  pentingnya deteksi dini. Kesadaran ini dapat meningkatkan upaya
-  pencegahan dan deteksi dini kondisi yang dapat menyebabkan sirosis
-  hati.
-\end{enumerate}
-
-Diatas adalah beberapa tujuan pentingnya untuk mengumpulkan data data
-CDC Diabetes Health Indicator.
 
 \hypertarget{mengenai-dataset-pada-cirrhosis-patient-survival-prediction}{%
 \subsection*{Mengenai dataset pada Cirrhosis Patient Survival
@@ -1520,9 +1524,8 @@ kondisi seperti hepatitis atau konsumsi alkohol kronis. Data yang
 diberikan bersumber dari penelitian Mayo Clinic tentang sirosis bilier
 primer (PBC) hati yang dilakukan pada tahun 1974 hingga 1984.
 
-\hypertarget{tujuan-mengumpulkan-data-1}{%
-\subsection{-Tujuan mengumpulkan
-data}\label{tujuan-mengumpulkan-data-1}}
+\hypertarget{tujuan-mengumpulkan-data}{%
+\subsection{-Tujuan mengumpulkan data}\label{tujuan-mengumpulkan-data}}
 
 Tujuannya apa untuk mengumpulkan data tersebut dan kenapa kita harus
 mengumpulkan data Cirrhosis Patient Survival Prediction :
@@ -1741,7 +1744,7 @@ dtype: int64
 \end{verbatim}
 
 \hypertarget{missing-value-data-bertype-integer-dan-continuous-1}{%
-\subsection{1. Missing value data bertype Integer dan
+\subsection{Missing value data bertype Integer dan
 Continuous}\label{missing-value-data-bertype-integer-dan-continuous-1}}
 
 yang saya lakukan ketika terjadinya missing value terhadap data type
@@ -1822,7 +1825,7 @@ Spiders & Edema & Bilirubin & Cholesterol & Albumin & Copper & Alk\_Phos
 \end{longtable}
 
 \hypertarget{missing-value-dengan-type-data-categori-1}{%
-\subsection{2 Missing value dengan type data
+\subsection{Missing value dengan type data
 categori}\label{missing-value-dengan-type-data-categori-1}}
 
 yang saya lakukan ketika terjadinya missing value terhadap data type
